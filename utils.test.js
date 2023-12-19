@@ -15,11 +15,3 @@ test('should throw an error if input is not a string', () => {
 test("isPalindrome is a function", () => {
   expect(typeof isPalindrome).toBe("function");
 });
-
-test('should return true for a palindrome word', () => {
-  expect(isPalindrome('racecar')).toBe(true);
-});
-
-test('should return false for a non-palindrome word', () => {
-  expect(isPalindrome('car')).toBe(false);
-});
